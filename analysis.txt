@@ -1,0 +1,26 @@
+---- Scheduler Analysis ----
+
+Total execution time: 91 ticks
+Energy consumption estimate: 5.82 units
+DVFS transitions: 0
+Time spent at different frequency levels:
+  - 1.0: 0.00%
+  - 0.8: 0.00%
+  - 0.6: 0.00%
+  - 0.4: 0.00%
+DPM transitions: 0
+Time spent in power-down mode: 0.00%
+
+Task Statistics:
+Task 1:
+  - Instances completed: 19
+  - Deadline misses: 0
+  - Average response time: 1.00 ticks
+Task 2:
+  - Instances completed: 6
+  - Deadline misses: 0
+  - Average response time: 2.67 ticks
+Task 3:
+  - Instances completed: 3
+  - Deadline misses: 0
+  - Average response time: 6.00 ticks

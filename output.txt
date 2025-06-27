@@ -1,0 +1,93 @@
+Time | Running Task | Frequency | Power Mode | Slack | Decision
+----------------------------------------------------------
+    0 | Task  1 ( 1/ 5) |   0.4  | Active     |      4 | DVFS -> 0.4
+    1 | Task  2 ( 1/15) |   0.4  | Active     |     13 | No change
+    2 | Task  3 ( 2/30) |   0.4  | Active     |     26 | No change
+    3 | Task  3 ( 1/30) |   0.4  | Active     |     26 | No change
+    4 |      None      |   0.4  | Active     |      1 | No change
+    5 | Task  1 ( 0/10) |   0.4  | Active     |      5 | No change
+    6 |      None      |   0.4  | Active     |      4 | No change
+    7 |      None      |   0.4  | Active     |      3 | No change
+    8 |      None      |   0.4  | Active     |      2 | No change
+    9 |      None      |   0.4  | Active     |      1 | No change
+   10 | Task  1 ( 1/15) |   0.4  | Active     |      4 | No change
+   11 |      None      |   0.4  | Active     |      4 | No change
+   12 |      None      |   0.4  | Active     |      3 | No change
+   13 |      None      |   0.4  | Active     |      2 | No change
+   14 |      None      |   0.4  | Active     |      1 | No change
+   15 | Task  1 ( 0/20) |   0.4  | Active     |      5 | No change
+   16 | Task  2 ( 1/30) |   0.4  | Active     |     13 | No change
+   17 |      None      |   0.4  | Active     |      3 | No change
+   18 |      None      |   0.4  | Active     |      2 | No change
+   19 |      None      |   0.4  | Active     |      1 | No change
+   20 | Task  1 ( 1/25) |   0.4  | Active     |      4 | No change
+   21 |      None      |   0.4  | Active     |      4 | No change
+   22 |      None      |   0.4  | Active     |      3 | No change
+   23 |      None      |   0.4  | Active     |      2 | No change
+   24 |      None      |   0.4  | Active     |      1 | No change
+   25 | Task  1 ( 0/30) |   0.4  | Active     |      5 | No change
+   26 |      None      |   0.4  | Active     |      4 | No change
+   27 |      None      |   0.4  | Active     |      3 | No change
+   28 |      None      |   0.4  | Active     |      2 | No change
+   29 |      None      |   0.4  | Active     |      1 | No change
+   30 | Task  1 ( 1/35) |   0.4  | Active     |      4 | No change
+   31 | Task  2 ( 2/45) |   0.4  | Active     |     12 | No change
+   32 | Task  2 ( 1/45) |   0.4  | Active     |     12 | No change
+   33 | Task  3 ( 3/60) |   0.4  | Active     |     24 | No change
+   34 | Task  3 ( 2/60) |   0.4  | Active     |     24 | No change
+   35 | Task  1 ( 1/40) |   0.4  | Active     |      4 | No change
+   36 | Task  3 ( 1/60) |   0.4  | Active     |     23 | No change
+   37 |      None      |   0.4  | Active     |      3 | No change
+   38 |      None      |   0.4  | Active     |      2 | No change
+   39 |      None      |   0.4  | Active     |      1 | No change
+   40 | Task  1 ( 1/45) |   0.4  | Active     |      4 | No change
+   41 |      None      |   0.4  | Active     |      4 | No change
+   42 |      None      |   0.4  | Active     |      3 | No change
+   43 |      None      |   0.4  | Active     |      2 | No change
+   44 |      None      |   0.4  | Active     |      1 | No change
+   45 | Task  1 ( 1/50) |   0.4  | Active     |      4 | No change
+   46 | Task  2 ( 2/60) |   0.4  | Active     |     12 | No change
+   47 | Task  2 ( 1/60) |   0.4  | Active     |     12 | No change
+   48 |      None      |   0.4  | Active     |      2 | No change
+   49 |      None      |   0.4  | Active     |      1 | No change
+   50 | Task  1 ( 1/55) |   0.4  | Active     |      4 | No change
+   51 |      None      |   0.4  | Active     |      4 | No change
+   52 |      None      |   0.4  | Active     |      3 | No change
+   53 |      None      |   0.4  | Active     |      2 | No change
+   54 |      None      |   0.4  | Active     |      1 | No change
+   55 | Task  1 ( 1/60) |   0.4  | Active     |      4 | No change
+   56 |      None      |   0.4  | Active     |      4 | No change
+   57 |      None      |   0.4  | Active     |      3 | No change
+   58 |      None      |   0.4  | Active     |      2 | No change
+   59 |      None      |   0.4  | Active     |      1 | No change
+   60 | Task  1 ( 1/65) |   0.4  | Active     |      4 | No change
+   61 | Task  2 ( 2/75) |   0.4  | Active     |     12 | No change
+   62 | Task  2 ( 1/75) |   0.4  | Active     |     12 | No change
+   63 | Task  3 ( 3/90) |   0.4  | Active     |     24 | No change
+   64 | Task  3 ( 2/90) |   0.4  | Active     |     24 | No change
+   65 | Task  1 ( 1/70) |   0.4  | Active     |      4 | No change
+   66 | Task  3 ( 1/90) |   0.4  | Active     |     23 | No change
+   67 |      None      |   0.4  | Active     |      3 | No change
+   68 |      None      |   0.4  | Active     |      2 | No change
+   69 |      None      |   0.4  | Active     |      1 | No change
+   70 | Task  1 ( 1/75) |   0.4  | Active     |      4 | No change
+   71 |      None      |   0.4  | Active     |      4 | No change
+   72 |      None      |   0.4  | Active     |      3 | No change
+   73 |      None      |   0.4  | Active     |      2 | No change
+   74 |      None      |   0.4  | Active     |      1 | No change
+   75 | Task  1 ( 1/80) |   0.4  | Active     |      4 | No change
+   76 | Task  2 ( 2/90) |   0.4  | Active     |     12 | No change
+   77 | Task  2 ( 1/90) |   0.4  | Active     |     12 | No change
+   78 |      None      |   0.4  | Active     |      2 | No change
+   79 |      None      |   0.4  | Active     |      1 | No change
+   80 | Task  1 ( 1/85) |   0.4  | Active     |      4 | No change
+   81 |      None      |   0.4  | Active     |      4 | No change
+   82 |      None      |   0.4  | Active     |      3 | No change
+   83 |      None      |   0.4  | Active     |      2 | No change
+   84 |      None      |   0.4  | Active     |      1 | No change
+   85 | Task  1 ( 1/90) |   0.4  | Active     |      4 | No change
+   86 |      None      |   0.4  | Active     |      4 | No change
+   87 |      None      |   0.4  | Active     |      3 | No change
+   88 |      None      |   0.4  | Active     |      2 | No change
+   89 |      None      |   0.4  | Active     |      1 | No change
+   90 | Task  1 ( 1/95) |   0.4  | Active     |      4 | No change

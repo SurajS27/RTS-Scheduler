@@ -1,0 +1,38 @@
+/**
+ * Makefile for DVFS+DPM Real-time Scheduler
+ */
+
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+
+# Source files
+SOURCES = main.c scheduler.c power_manager.c task_set.c
+HEADERS = scheduler.h power_manager.h task_set.h FreeRTOS.h task.h timers.h
+
+# Target executable
+TARGET = dvfs_dpm_scheduler
+
+# Default target
+all: $(TARGET)
+
+# Link object files to create executable
+$(TARGET): $(SOURCES) $(HEADERS)
+	$(CC) $(CFLAGS) -o $@ $(SOURCES)
+
+# Clean built files
+clean:
+	rm -f $(TARGET) output.txt analysis.txt
+
+# Run the scheduler
+run: $(TARGET)
+	./$(TARGET)
+
+# View the output
+view:
+	cat output.txt
+
+# View the analysis
+analysis:
+	cat analysis.txt
+
+.PHONY: all clean run view analysis
