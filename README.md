@@ -3,7 +3,7 @@
 
 This project implements a real-time task scheduler that incorporates Dynamic Voltage and Frequency Scaling (DVFS) and Dynamic Power Management (DPM) techniques for enhanced energy efficiency. It is designed as a simulation environment, leveraging minimal FreeRTOS header adaptations for compatibility and potential integration pathways.
 
-The scheduler follows an Earliest Deadline First (EDF) scheduling policy. For power management, it employs a Constant-utilization/Capacity Earliest Deadline First (CCEDF) like approach for DVFS when tasks are executing and a slack-based approach for DPM during idle periods.
+The scheduler follows an Earliest Deadline First (EDF) scheduling policy. For power management, it employs a cyclic-conserving EDF (CCEDF) like approach for DVFS when tasks are executing and a slack-based approach for DPM during idle periods.
 
 ## Features
 
